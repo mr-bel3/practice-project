@@ -1,12 +1,25 @@
 <!doctype html>
 
 <html lang="en">
-<link rel="styles" href="css/styles.scss">
+<link rel="stylesheet" type="text/css" href="css/styles.css"> 
 <head>
 	<meta charset="utf-8">
-	<title>This is my second page</title>
-	<meta name="second page" content="source code of my second page">
-	<meta name="abeltre" content="tests">
+	<title>Page</title>
+	<meta name="second page" content="source code of my page">
+	<meta Author="abeltre" content="tests">
 	
 </head>
+<body>
+	<!-- build:js js/main.min.js -->
+	<script src="js/lib/a-library.js"></script>
+	<script src="js/lib/another-library.js"></script>
+	<script src="js/main.js"></script>
+	<!-- endbuild -->
+
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" href="css/styles.css">
+	<link ref="stylesheet" href="css/another-stylesheet.css">
+	<!-- endbuild -->
+</body>
+
 </html>
